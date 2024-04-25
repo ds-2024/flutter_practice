@@ -54,7 +54,6 @@ class Ex12 extends StatelessWidget {
                 ],
               ),
             ),
-
             Container(
               margin: EdgeInsets.all(20),
               color: Color(0xffffffff),
@@ -63,10 +62,7 @@ class Ex12 extends StatelessWidget {
                 children: [
                   // 첫 번째 열
                   Column(
-                    children: [
-                      Text('선물하기'),
-                      Text('Samsung Pay')
-                    ],
+                    children: [Text('선물하기'), Text('Samsung Pay')],
                   ),
                   // 두 번째 열
                   Row(
@@ -81,7 +77,6 @@ class Ex12 extends StatelessWidget {
                 ],
               ),
             ),
-
             Container(
               margin: EdgeInsets.all(20),
               color: Color(0xffffffff),
@@ -90,10 +85,7 @@ class Ex12 extends StatelessWidget {
                 children: [
                   // 첫 번째 열
                   Column(
-                    children: [
-                      Text('송금하기'),
-                      Text('Toss')
-                    ],
+                    children: [Text('송금하기'), Text('Toss')],
                   ),
                   // 두 번째 열
                   Row(
@@ -108,12 +100,10 @@ class Ex12 extends StatelessWidget {
                 ],
               ),
             ),
-
             SizedBox(height: 20),
             Column(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                
                 Container(
                   margin: EdgeInsets.all(20),
                   child: OutlinedButton(
@@ -125,7 +115,7 @@ class Ex12 extends StatelessWidget {
                   margin: EdgeInsets.all(20),
                   child: OutlinedButton(
                     child: Container(
-                        child: Text('저장위치'),
+                      child: Text('저장위치'),
                     ),
                     onPressed: () {},
                   ),

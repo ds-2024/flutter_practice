@@ -32,7 +32,7 @@ class _Ex13State extends State<_Ex13> {
   //초기화될때
   @override
   void initState() {
-    super.initState(); //implement method 부모거 추가기능
+    super.initState(); //override method 부모거 추가기능
   }
 
   //화면그릴때
